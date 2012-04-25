@@ -2,7 +2,7 @@
 
 Need help to choose between all your druthers? use druthers 
 ```
-$ cd your_repo_root/druther
+$ cd your_repo_root/druthers
 $ ./start.sh
 ```
 
