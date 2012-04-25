@@ -7,7 +7,7 @@ $ ./start.sh
 ```
 
 ### Authors and Contributors
-@rlespinasse is the author of this project
+[@rlespinasse](https://github.com/rlespinasse) is the author of this project
 
 ### Support or Contact
 Having trouble with project? declare an issue or fork it
