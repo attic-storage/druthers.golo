@@ -25,16 +25,7 @@ public class Druthers {
             druther = getKeyboardEntry();
         }
 
-        System.out.println();
-        System.out.print("Thanks lazy, I can start to sort ");
-        Thread.sleep(1000);
-        System.out.print(".");
-        Thread.sleep(1000);
-        System.out.print(".");
-        Thread.sleep(1000);
-        System.out.print(".");
-        Thread.sleep(1000);
-        System.out.println(" with you");
+        dotPrintln("Thanks lazy, I can start to sort", "with you");
         System.out.println();
         Thread.sleep(1000);
 
@@ -65,16 +56,7 @@ public class Druthers {
         for(String _druther:druthers) {
             System.out.println("    " + _druther);
         }
-        System.out.println();
-        System.out.print("Good bye, see you soon ");
-        Thread.sleep(1000);
-        System.out.print(".");
-        Thread.sleep(1000);
-        System.out.print(".");
-        Thread.sleep(1000);
-        System.out.print(".");
-        Thread.sleep(1000);
-        System.out.println(" with better druthers, pleeeeeeeease for my sanity!!!");
+        dotPrintln("Good bye, see you soon", "with better druthers, pleeeeeeeease for my sanity!!!");
     }
 
     private static String getKeyboardEntry() {
@@ -83,8 +65,21 @@ public class Druthers {
         try {
             line = keyboard.readLine();
         } catch(IOException e) {
-            System.out.println("oupps");
+            System.out.println("oupps, I broke your keyboard ... or not");
         }
         return line;
+    }
+
+    private static void dotPrintln(String firstText, String lastText) throws InterruptedException {
+        System.out.println();
+        System.out.print(firstText);
+        Thread.sleep(1000);
+        System.out.print(" .");
+        Thread.sleep(1000);
+        System.out.print(".");
+        Thread.sleep(1000);
+        System.out.print(". ");
+        Thread.sleep(1000);
+        System.out.println(lastText);
     }
 }
