@@ -11,3 +11,6 @@ $ ./start.sh
 
 ### Support or Contact
 Having trouble with project? declare an issue or fork it
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rlespinasse/druthers/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
