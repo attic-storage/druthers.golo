@@ -2,13 +2,6 @@
 
 Need help to choose between all your druthers? use druthers 
 ```
-$ cd your_repo_root/druthers
-$ ./start.sh
+$ bower install
+$ golo golo --files imports Druthers.golo
 ```
-
-### Authors and Contributors
-[@rlespinasse](https://github.com/rlespinasse) is the author of this project
-
-### Support or Contact
-Having trouble with project? declare an issue or fork it
-

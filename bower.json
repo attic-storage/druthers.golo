@@ -1,0 +1,7 @@
+{
+  "name": "druthers.golo",
+  "version": "0.0.0",
+  "dependencies": {
+    "ansi-string-augmentations.golo" : "rlespinasse/ansi-string-augmentations.golo#master"
+  }
+}
